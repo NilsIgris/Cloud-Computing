@@ -30,7 +30,7 @@ data = {"intents": [
              },
              {"tag": "goodbye",
               "patterns": [ "bye", "Salut", "see ya", "adios", "cya"],
-              "responses": ["C'était sympa de te parler", "à plus tard", "On se reparle très vite!"]
+              "responses": ["Je n'ai pas compris votre question"]
              },
              {"tag": "school",
               "patterns": [ "C'est quoi Ynov ?","Que sais tu de Ynov ?"],
@@ -49,7 +49,7 @@ data = {"intents": [
              "responses": ["Ynov propose une variété de programmes dans les domaines du numérique, de la créativité et de l'innovation, tels que le développement web, la cybersécurité, le design graphique, l'animation 3D, etc."]
              },
              {"tag": "inscription",
-             "patterns": ["Comment s'inscrire à Ynov?", "Quelles sont les modalités d'admission à Ynov?", "Peux-tu m'aider à m'inscrire à Ynov?"],
+             "patterns": ["Comment s'inscrire à Ynov?", "Quelles sont les modalités d'admission à Ynov?", "Peux-tu m'aider à m'inscrire à Ynov?","Comment s'y inscrire ?","Comment je peux m'y inscrire ?"],
              "responses": ["Pour s'inscrire à Ynov, il faut généralement remplir un formulaire en ligne sur le site officiel de l'école et suivre les instructions fournies par l'administration.", "Les modalités d'admission varient selon les programmes et les campus, il est conseillé de consulter le site web de l'école ou de contacter l'administration pour plus d'informations."]
              },
              {"tag": "services",
@@ -59,13 +59,8 @@ data = {"intents": [
              {"tag": "histoire",
              "patterns": ["Peux-tu me raconter l'histoire d'Ynov?", "Comment Ynov a-t-elle été fondée?", "Quelle est l'histoire de Ynov?"],
              "responses": ["Ynov a été fondée en 2009 par Benoît Raphaël. Initialement connue sous le nom de 'Web@cadémie', elle proposait des formations axées sur le développement web. Au fil des années, l'école a élargi son offre de formations pour inclure les domaines de la création numérique et de l'innovation. Aujourd'hui, Ynov est devenue l'une des principales écoles supérieures dans les domaines du numérique en France, offrant une variété de programmes de qualité et formant les futurs talents de l'industrie."]
-}
-
-
-
-
-
-          
+             }
+        
 ]}
 
 # initialisation de lemmatizer pour obtenir la racine des mots
